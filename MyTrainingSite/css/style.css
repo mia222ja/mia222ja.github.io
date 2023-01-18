@@ -1,0 +1,138 @@
+/* common */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+a:hover {
+  color:beige;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: 'Caveat', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Caveat', cursive;
+}
+
+p {
+  font-family: "Arial";
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  background-color: #FFFBF4;
+}
+header h1 {
+  font-size: 32px;
+}
+
+header ul {
+  display: flex;
+}
+
+header li + li {
+  margin-left: 15px;
+}
+
+header li,
+header i {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* hero */
+
+.items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* sample */
+
+.sample h3 {
+  font-weight: normal;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.sample p {
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+.sample {
+  padding: 20px;
+}
+
+.items section {
+  text-align: center;
+  width: 100%;
+}
+
+/* Profile */
+
+.profile{
+  background-color: #FFF1DE;
+  padding: 20px;
+}
+
+.profile section {
+  display: flex;
+}
+
+.profile p {
+  padding: 30px;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+/* footer */
+footer {
+  background-color: #FFFBF4;
+  text-align: center;
+  padding: 30px;
+}
+
+/* media */
+
+@media (min-width: 600px) {
+  .items img {
+    height: 373.2px;
+    width: 560px;
+  }
+}
